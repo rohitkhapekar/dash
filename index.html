@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<title>Start Bootstrap Template</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/simple-sidebar.css" rel="stylesheet">
+<link href="font-awesome-4.3.0/css/font-awesome.min.css"
+	rel="stylesheet">
+
+<script scr="http://localhost:8081/Test/js/jquery-1.11.2.min.js">  </script>
+
+<script data-require="jquery@*" data-semver="2.0.3"
+	src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script data-require="bootstrap@2.3.2" data-semver="2.3.2"
+	src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script data-require="angular.js@1.0.7" data-semver="1.0.7"
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.js"></script>
+<link data-require="bootstrap-css@*" data-semver="3.0.0-rc1"
+	rel="stylesheet"
+	href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css" />
+
+
+<link rel="stylesheet" href="sidebar_menu.css" />
+<link rel="stylesheet" href="style.css" />
+<script src="sidebar_menu.js"></script>
+<script src="script_tiles.js"></script>
+
+
+
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script
+	src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<style>
+#id1 {
+	background-color: white;
+	width: 500px;
+	height: 350px;
+	padding: 10px;
+	/* border: 1px solid black;
+     */
+	margin: 5px;
+}
+
+#id2 {
+	background-color: white;
+	width: 500px;
+	height: 350px;
+	padding: 10px;
+	/* border: 1px solid black;
+     */
+	margin: 5px;
+}
+
+#id3 {
+	background-color: white;
+	width: 500px;
+	height: 350px;
+	padding: 10px;
+	/* border: 1px solid black;
+     */
+	margin: 5px;
+}
+
+#id4 {
+	background-color: white;
+	width: 500px;
+	height: 350px;
+	padding: 10px;
+	/* border: 1px solid black;
+     */
+	margin: 5px;
+}
+
+#id5 {
+	float: right;
+}
+
+
+.A {border-bottom: 3px solid #4588ba; margin-bottom:10px;}
+
+
+
+
+
+</style>
+
+
+
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+	$("#item1").hide();
+	$("#item2").hide();
+	$("#id3").hide();
+	$("#id4").hide();
+    $("#button1").click(function(){
+        $("#item1").toggle();
+    });
+    $("#button2").click(function(){
+        $("#item2").toggle();
+    });
+    $("#button3").click(function(){
+        $("#id3").toggle();
+    });
+    $("#button4").click(function(){
+        $("#id4").toggle();
+    });
+    
+   
+});
+</script>
+
+
+
+
+
+
+</head>
+<body>
+	<div class="page-header">
+	<div class="A">
+		
+		
+		<h1>
+			Dashboard<small>verizon</small>
+  	<div class="col-xs-2" id="id5">
+
+				<input type="text" class="form-control" id="usr" placeholder="search">
+			</div>
+  
+		</h1>
+
+
+
+		
+
+
+
+		<!-- 	<div class="col-xs-2" id="id5">
+
+				<input type="text" class="form-control" id="usr"
+					placeholder="search" class="col-xs-2">
+			</div> -->
+		
+	</div>
+
+</div>
+
+
+
+<div class="B">
+	<nav class="navbar navbar-default no-margin">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<!-- 	<div class="navbar-header fixed-brand">
+			<button type="button" class="navbar-toggle collapsed"
+				data-toggle="collapse" id="menu-toggle">
+				<span class="glyphicon glyphicon-th-large" aria-hidden="true"></span>
+			</button>
+			<a class="navbar-brand" href="#"><i class="fa fa-rocket fa-4"></i>
+				Verizon</a>
+		</div> -->
+		<!-- 	<div data-ng-app='myApp'>
+		
+    <data-ng-pt-header></data-ng-pt-header>
+    </div>
+		navbar-header
+         
+		<div class="collapse navbar-collapse"
+			id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+			</ul>
+		</div>
+		 -->
+
+
+		<!-- bs-example-navbar-collapse-1 -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<div id="page-wrapper">
+			<div class="row">
+				<!--  <div class="col-lg-12">
+                    <h1 class="page-header">Dashboard</h1>
+                </div> -->
+				<!-- /.col-lg-12 -->
+			</div>
+			<!-- /.row -->
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-comments fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">26</div>
+									<div>Percentage % review</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left"> <a id="button1" href="#">View
+										Details</a>
+								</span> <span class="pull-right"><i
+									class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+
+
+
+
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="panel panel-info">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-tasks fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">12</div>
+									<div>Monthly Expense</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left"><a id="button2" href="#">View
+										Details</a></span> <span class="pull-right"><i
+									class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-shopping-cart fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">124</div>
+									<div>New Users</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left"><a id="button3" href="#">View
+										Details</a></span> <span class="pull-right"><i
+									class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<div class="row">
+								<div class="col-xs-3">
+									<i class="fa fa-support fa-5x"></i>
+								</div>
+								<div class="col-xs-9 text-right">
+									<div class="huge">13</div>
+									<div>Features</div>
+								</div>
+							</div>
+						</div>
+						<a href="#">
+							<div class="panel-footer">
+								<span class="pull-left"><a id="button4" href="#">View
+										Details</a></span> <span class="pull-right"><i
+									class="fa fa-arrow-circle-right"></i></span>
+								<div class="clearfix"></div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+	</nav>
+	</div>
+	<div id="wrapper">
+		<!-- Sidebar -->
+		<div id="sidebar-wrapper">
+			<ul class="sidebar-nav nav-pills nav-stacked" id="menu">
+
+				<li class="active"><a href="#"><span
+						class="fa-stack fa-lg pull-left"><i
+							class="fa fa-dashboard fa-stack-1x "></i></span> Dashboard</a>
+					<ul class="nav-pills nav-stacked" style="list-style-type: none;">
+						<li><a href="#">link1</a></li>
+						<li><a href="#">link2</a></li>
+					</ul></li>
+				<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+							class="fa fa-flag fa-stack-1x "></i></span> Shortcut</a>
+					<ul class="nav-pills nav-stacked" style="list-style-type: none;">
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+
+					</ul></li>
+				<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+							class="fa fa-cloud-download fa-stack-1x "></i></span>Overview</a>
+							
+							<ul class="nav-pills nav-stacked" style="list-style-type: none;">
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+
+					</ul>
+							</li>
+				<li><a href="#"> <span class="fa-stack fa-lg pull-left"><i
+							class="fa fa-cart-plus fa-stack-1x "></i></span>Events
+				</a>
+				
+				<ul class="nav-pills nav-stacked" style="list-style-type: none;">
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+
+					</ul>
+				
+				</li>
+				<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+							class="fa fa-youtube-play fa-stack-1x "></i></span>About</a>
+							<ul class="nav-pills nav-stacked" style="list-style-type: none;">
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+
+					</ul></li>
+				<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+							class="fa fa-wrench fa-stack-1x "></i></span>Services</a>
+							<ul class="nav-pills nav-stacked" style="list-style-type: none;">
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+
+					</ul></li>
+				<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+							class="fa fa-server fa-stack-1x "></i></span>Contact</a>
+							<ul class="nav-pills nav-stacked" style="list-style-type: none;">
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link1</a></li>
+						<li><a href="#"><span class="fa-stack fa-lg pull-left"><i
+									class="fa fa-flag fa-stack-1x "></i></span>link2</a></li>
+
+					</ul></li>
+			</ul>
+		</div>
+		<!-- /#sidebar-wrapper -->
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<div class="container">
+				<div class="row">
+					<div>
+						<div class="col-xs-6" id="id1">
+							<div class="embed-responsive embed-responsive-4by3" id="item1">
+								<iframe class="embed-responsive-item" src="A.html" width="200"
+									height="200" frameborder="5"></iframe>
+							</div>
+						</div>
+						<div class="col-xs-6" id="id2">
+							<div class="embed-responsive embed-responsive-4by3" id="item2">
+								<iframe class="embed-responsive-item" src="pie.html" width="200"
+									height="100" frameborder="5"></iframe>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6" id="id3">
+
+
+
+						<div id="page-wrapper">
+							<div class="row">
+								<!--  <div class="col-lg-12">
+                    <h1 class="page-header">Dashboard</h1>
+                </div> -->
+								<!-- /.col-lg-12 -->
+							</div>
+							<!-- /.row -->
+							<div class="row">
+								<div class="col-lg-9 col-md-9">
+									<div class="panel panel-primary">
+										<div class="panel-heading">
+											<div class="row">
+												<div class="col-xs-3">
+													<i class="fa fa-comments fa-5x"></i>
+												</div>
+												<div class="col-xs-9 text-right">
+													<div class="huge">26</div>
+													<div>New Comments!</div>
+												</div>
+											</div>
+										</div>
+										<a href="#">
+											<div class="panel-footer">
+												<span class="pull-left"></span> <span
+													class="pull-right"><i
+													class="fa fa-arrow-circle-right"></i></span>
+												<div class="clearfix"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-9">
+									<div class="panel panel-info">
+										<div class="panel-heading">
+											<div class="row">
+												<div class="col-xs-3">
+													<i class="fa fa-tasks fa-5x"></i>
+												</div>
+												<div class="col-xs-9 text-right">
+													<div class="huge">12</div>
+													<div>Profile!</div>
+												</div>
+											</div>
+										</div>
+										<a href="#">
+											<div class="panel-footer">
+												<span class="pull-left"></span> <span
+													class="pull-right"><i
+													class="fa fa-arrow-circle-right"></i></span>
+												<div class="clearfix"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-9">
+									<div class="panel panel-danger">
+										<div class="panel-heading">
+											<div class="row">
+												<div class="col-xs-3">
+													<i class="fa fa-shopping-cart fa-5x"></i>
+												</div>
+												<div class="col-xs-9 text-right">
+													<div class="huge">124</div>
+													<div>Profile</div>
+												</div>
+											</div>
+										</div>
+										<a href="#">
+											<div class="panel-footer">
+												<span class="pull-left"></span> <span
+													class="pull-right"><i
+													class="fa fa-arrow-circle-right"></i></span>
+												<div class="clearfix"></div>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+
+					</div>
+					<div class="col-xs-6" id="id4">
+						<div class="embed-responsive embed-responsive-4by3">
+							<iframe class="embed-responsive-item" src="line.html" width="100"
+								height="100" frameborder="5"></iframe>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- /#page-content-wrapper -->
+	</div>
+	<!-- /#wrapper -->
+	<!-- jQuery -->
+	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/sidebar_menu.js"></script>
+</body>
+</html>
